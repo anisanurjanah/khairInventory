@@ -13,9 +13,12 @@
         android:theme="@style/Theme.KhairInventory"
         tools:targetApi="31">
         <activity
+            android:name=".ui.AddItemActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.KhairInventory.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

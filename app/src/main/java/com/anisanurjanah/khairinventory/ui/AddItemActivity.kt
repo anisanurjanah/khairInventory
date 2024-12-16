@@ -5,11 +5,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.anisanurjanah.khairinventory.data.Items
 import com.anisanurjanah.khairinventory.databinding.ActivityAddItemBinding
+import com.anisanurjanah.khairinventory.utils.INVENTORY
+import com.anisanurjanah.khairinventory.utils.ITEMS
 import com.google.firebase.Firebase
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.database
 import java.util.UUID
-
 
 class AddItemActivity : AppCompatActivity() {
 
@@ -58,10 +59,5 @@ class AddItemActivity : AppCompatActivity() {
                 }
         }
 
-    }
-
-    companion object {
-        const val INVENTORY = "inventory"
-        const val ITEMS = "items"
     }
 }

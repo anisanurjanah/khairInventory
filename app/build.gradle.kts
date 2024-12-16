@@ -57,6 +57,7 @@ dependencies {
 
     // Firebase
     implementation(libs.firebase.database)
+    implementation(libs.firebase.ui.database)
 
     implementation(libs.material)
     implementation(libs.androidx.activity)
